@@ -32,7 +32,7 @@ public class Main{
                 break;
 
                 case 3:
-                System.out.println("Existem " + listaTarefas.obterNumeroTotalTarefas() + "tarefas na lista!");
+                System.out.println("Existem " + listaTarefas.obterNumeroTotalTarefas() + " tarefa(s) na lista!");
                 break;
 
                 case 4:
@@ -45,7 +45,9 @@ public class Main{
                 break;
 
                 default:
-            System.out.println("Opção Inválida!");
+                System.out.println("Opção Inválida!");
+
+                scanner.close();
             }
         }
     }

@@ -1,5 +1,6 @@
 package listaDeTarefas;
 import java.util.ArrayList;
+import java.util.List;
 
 public class ListaTarefas {
     private ArrayList<Tarefa> tarefas;
