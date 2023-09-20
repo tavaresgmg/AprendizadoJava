@@ -1,1 +1,1 @@
-# AprendizadoJava
+Esse diretório possui exercícios de aprendizado em Java.
