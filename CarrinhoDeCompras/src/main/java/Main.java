@@ -9,13 +9,13 @@ public class Main {
 
         while(escolha != 5){
             System.out.println("1. Adicionar item");
-                System.out.println("2. Remover item");
-                System.out.println("3. Calcular valor total");
-                System.out.println("4. Exibir itens");
-                System.out.println("5. Sair");
-                System.out.println("Digite a opção desejada: ");
-                escolha = scanner.nextInt();
-                scanner.nextLine();
+            System.out.println("2. Remover item");
+            System.out.println("3. Calcular valor total");
+            System.out.println("4. Exibir itens");
+            System.out.println("5. Sair");
+            System.out.println("Digite a opção desejada: ");
+            escolha = scanner.nextInt();
+            scanner.nextLine();
 
             switch(escolha){
                 case 1:

@@ -1,4 +1,4 @@
-package com.catalogodelivros;
+package CatalogoDeLivros.src.main.java;
 import java.util.ArrayList;
 
 public class CatalogoLivros {
@@ -21,7 +21,8 @@ public class CatalogoLivros {
             }
         }
         if (!encontrado){
-                System.out.println("Não foi encontrado nenhum livro!");
+                System.out.println("Não foi encontrado nenhum livro!"); 
+        }
     }
 
     public void pesquisaPorIntervaloAnos (int anoInicial, int anoFinal){
@@ -34,7 +35,8 @@ public class CatalogoLivros {
         }
         if (!encontrado){
                 System.out.println("Não foi encontrado nenhum livro!");
-    }
+        }
+    }    
 
     public void pesquisaPorTitulo (String titulo){
         boolean encontrado = false;
@@ -47,6 +49,7 @@ public class CatalogoLivros {
         }
         if (!encontrado){
                 System.out.println("Não foi encontrado nenhum livro!");
-    }
+        }
     
+    }
 }
